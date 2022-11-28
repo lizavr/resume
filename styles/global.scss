@@ -1,0 +1,31 @@
+:root {
+  --main-color: #120d0e;
+  --secondary-color: #3d3b3c;
+  --secondary-text-color: #bebebe;
+  --general-white-color: #ffffff;
+  --accent-blue: #10367c;
+  --buttons-color: #3a4576;
+  --gap: 8px;
+}
+body {
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  color: var(--main-color);
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 72px 16px;
+}
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    font-weight: 500;
+    color: inherit;
+  }
+}

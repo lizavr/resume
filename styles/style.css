@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+  border: none;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+:root {
+  --main-color: #120d0e;
+  --secondary-color: #3d3b3c;
+  --secondary-text-color: #bebebe;
+  --general-white-color: #ffffff;
+  --accent-blue: #10367c;
+  --buttons-color: #3a4576;
+  --gap: 8px;
+}
+
+body {
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  color: var(--main-color);
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 72px 16px;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  color: inherit;
+}
+
+.header__container {
+  background-color: var(--general-white-color);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.about {
+  font-weight: 500;
+  font-size: 56px;
+}
+.about__photo img {
+  height: 465px;
+  width: 364px;
+}
+.about__inf {
+  max-width: 572px;
+}
+.about__inf__name {
+  margin-bottom: var(--gap);
+}
+.about__inf__role {
+  margin-bottom: 40px;
+  color: var(--secondary-text-color);
+}
+.about__inf__about__me {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+.about__inf__about__me:last-child {
+  margin-bottom: 72px;
+}
+.about__inf__buttons {
+  gap: 24px;
+}
+.about__inf__buttons__button {
+  width: 185px;
+  padding: 14px 0;
+  font-size: 24px;
+  color: var(--general-white-color);
+  background-color: var(--buttons-color);
+}
+
+.button__href {
+  color: var(--general-white-color);
+}
+.button__href:hover {
+  text-decoration: none;
+  font-weight: 400;
+}

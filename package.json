@@ -19,5 +19,9 @@
   "homepage": "https://github.com/lizavr/resume#readme",
   "devDependencies": {
     "prettier": "2.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.56.1"
   }
 }

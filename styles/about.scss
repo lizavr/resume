@@ -1,0 +1,44 @@
+.about {
+  font-weight: 500;
+  font-size: 56px;
+  &__photo img {
+    height: 465px;
+    width: 364px;
+  }
+  &__inf {
+    max-width: 572px;
+    &__name {
+      margin-bottom: var(--gap);
+    }
+    &__role {
+      margin-bottom: 40px;
+      color: var(--secondary-text-color);
+    }
+    &__about__me {
+      margin-bottom: 20px;
+      font-size: 22px;
+      color: var(--secondary-color);
+      &:last-child {
+        margin-bottom: 72px;
+      }
+    }
+    &__buttons {
+      gap: 24px;
+      &__button {
+        width: 185px;
+
+        padding: 14px 0;
+        font-size: 24px;
+        color: var(--general-white-color);
+        background-color: var(--buttons-color);
+      }
+    }
+  }
+}
+.button__href {
+  color: var(--general-white-color);
+  &:hover {
+    text-decoration: none;
+    font-weight: 400;
+  }
+}

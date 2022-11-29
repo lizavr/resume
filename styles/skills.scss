@@ -1,0 +1,31 @@
+.fa.fa-star {
+  color: var(--secondary-text-color);
+}
+.fa.fa-star.checked {
+  color: var(--main-color);
+}
+.skill__item {
+  &__img {
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+  }
+  &__skill {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__stars {
+    margin-bottom: 72px;
+  }
+}
+.skills__arrow {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  border-top: 5px solid var(--main-color);
+  border-right: 5px solid var(--main-color);
+  transform: rotate(135deg);
+}
+.skills__hidden {
+  display: none;
+}

@@ -45,6 +45,13 @@ a:hover {
   color: inherit;
 }
 
+.title {
+  font-weight: 500;
+  font-size: 56px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
 .header__container {
   background-color: var(--general-white-color);
   padding-top: 40px;
@@ -58,7 +65,7 @@ a:hover {
 }
 .about__photo img {
   height: 465px;
-  width: 364px;
+  width: 385px;
 }
 .about__inf {
   max-width: 572px;
@@ -95,4 +102,38 @@ a:hover {
 .button__href:hover {
   text-decoration: none;
   font-weight: 400;
+}
+
+.fa.fa-star {
+  color: var(--secondary-text-color);
+}
+
+.fa.fa-star.checked {
+  color: var(--main-color);
+}
+
+.skill__item__img {
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 1 1 auto;
+}
+.skill__item__skill {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skill__item__stars {
+  margin-bottom: 72px;
+}
+
+.skills__arrow {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  border-top: 5px solid var(--main-color);
+  border-right: 5px solid var(--main-color);
+  transform: rotate(135deg);
+}
+
+.skills__hidden {
+  display: none;
 }

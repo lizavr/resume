@@ -105,11 +105,17 @@ a:hover {
 }
 
 .fa.fa-star {
+  margin: 3px;
   color: var(--secondary-text-color);
 }
 
 .fa.fa-star.checked {
   color: var(--main-color);
+}
+
+.skills__items {
+  gap: calc(var(--gap) * 5);
+  flex-wrap: wrap;
 }
 
 .skill__item__img {
@@ -120,20 +126,20 @@ a:hover {
 .skill__item__skill {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 14px;
 }
 .skill__item__stars {
-  margin-bottom: 72px;
+  margin-bottom: 70px;
 }
 
 .skills__arrow {
   margin: 0 auto;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   border-top: 5px solid var(--main-color);
   border-right: 5px solid var(--main-color);
   transform: rotate(135deg);
 }
-
 .skills__hidden {
   display: none;
 }

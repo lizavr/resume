@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>resume</title>
   </head>
@@ -298,7 +299,67 @@
         </div>
       </section>
       <section class="projects">
-        <div class="container"><a id="projects">about</a></div>
+        <div class="container">
+          <a class="anchor" id="projects"></a>
+          <h2 class="title">Projects</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide__content d-flex">
+                  <div class="swiper-slide__content__img">
+                    <img src="./assets/imgs/screen-trip.jpg" alt="screen" />
+                  </div>
+                  <div class="swiper-slide__content__description">
+                    <p class="swiper-slide__content__description__name">
+                      Triphouse
+                    </p>
+                    <p class="swiper-slide__content__description__desc">
+                      Landing-page for online travel agency for lodging
+                      reservations.
+                    </p>
+                    <button
+                      class="swiper-slide__content__description__btn about__inf__buttons__button"
+                    >
+                      <a
+                        class="button__href button"
+                        href="https://github.com/lizavr/if-html"
+                        >See on Github</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__content d-flex">
+                  <div class="swiper-slide__content__img">
+                    <img src="./assets/imgs/screen-trip.jpg" alt="screen" />
+                  </div>
+                  <div class="swiper-slide__content__description">
+                    <p class="swiper-slide__content__description__name">
+                      Triphouse
+                    </p>
+                    <p class="swiper-slide__content__description__desc">
+                      Landing-page for online travel agency for lodging
+                      reservations.
+                    </p>
+                    <button
+                      class="swiper-slide__content__description__btn about__inf__buttons__button"
+                    >
+                      <a
+                        class="button__href button"
+                        href="https://github.com/lizavr/if-html"
+                        >See on Github</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
       <section class="education">
         <div class="container"><a id="education">about</a></div>
@@ -311,6 +372,7 @@
       </section>
     </main>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>

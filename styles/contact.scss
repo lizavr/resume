@@ -1,5 +1,6 @@
 .contact__content {
   &__photo img {
+    object-fit: cover;
     height: 412px;
     width: 412px;
     border-radius: 50%;
@@ -7,6 +8,7 @@
   &__inf {
     padding-left: 216px;
     a{
+      text-decoration: underline;
       display: block;
       margin-bottom: var(--gap);
     }

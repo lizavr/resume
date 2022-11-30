@@ -1,6 +1,8 @@
-.header__container {
+.header {
   background-color: var(--general-white-color);
-  padding-top: 40px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--secondary-color);
+  &__container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--secondary-color);
+  }
 }

@@ -60,8 +60,10 @@ a:hover {
   position: relative;
 }
 
-.header__container {
+.header {
   background-color: var(--general-white-color);
+}
+.header__container {
   padding-top: 40px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--secondary-color);
@@ -368,6 +370,7 @@ a:hover {
 }
 
 .contact__content__photo img {
+  object-fit: cover;
   height: 412px;
   width: 412px;
   border-radius: 50%;
@@ -376,6 +379,7 @@ a:hover {
   padding-left: 216px;
 }
 .contact__content__inf a {
+  text-decoration: underline;
   display: block;
   margin-bottom: var(--gap);
 }

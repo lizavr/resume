@@ -366,3 +366,21 @@ a:hover {
   font-weight: 500;
   margin-bottom: var(--gap);
 }
+
+.contact__content__photo img {
+  height: 412px;
+  width: 412px;
+  border-radius: 50%;
+}
+.contact__content__inf {
+  padding-left: 216px;
+}
+.contact__content__inf a {
+  display: block;
+  margin-bottom: var(--gap);
+}
+.contact__content__inf__links {
+  padding-top: calc(var(--gap) * 12);
+  gap: calc(var(--gap) * 2);
+  margin-bottom: calc(var(--gap) * 13);
+}

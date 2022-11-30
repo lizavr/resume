@@ -1,0 +1,19 @@
+.contact__content {
+  &__photo img {
+    height: 412px;
+    width: 412px;
+    border-radius: 50%;
+  }
+  &__inf {
+    padding-left: 216px;
+    a{
+      display: block;
+      margin-bottom: var(--gap);
+    }
+    &__links {
+      padding-top: calc(var(--gap) * 12);
+      gap: calc(var(--gap) * 2);
+      margin-bottom:calc(var(--gap) * 13) ;
+    }
+  }
+}

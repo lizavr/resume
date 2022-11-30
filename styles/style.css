@@ -72,6 +72,7 @@ a:hover {
 }
 .about__inf__name {
   margin-bottom: var(--gap);
+  text-align: left;
 }
 .about__inf__role {
   margin-bottom: 40px;

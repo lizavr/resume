@@ -1,0 +1,15 @@
+.languages {
+  background-color: #fafafa;
+  &__item {
+    text-align: center;
+    &__img {
+      height: 182px;
+      width: 182px;
+      margin-bottom: calc(var(--gap) * 3);
+    }
+  }
+  &__lang {
+    font-weight: 500;
+    margin-bottom: var(--gap);
+  }
+}

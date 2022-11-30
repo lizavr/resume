@@ -77,6 +77,7 @@ a:hover {
 .about__inf__role {
   margin-bottom: 40px;
   color: var(--secondary-text-color);
+  text-align: left;
 }
 .about__inf__about__me {
   margin-bottom: 20px;

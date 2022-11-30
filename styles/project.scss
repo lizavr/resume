@@ -70,3 +70,13 @@
   height: 17px;
   background-color: var(--buttons-color);
 }
+@media (max-width: 1000px) {
+  .swiper-slide__content {
+    flex-direction: column;
+  }
+  .swiper-slide__content__img {
+    margin: 0 auto;
+    max-width: 603px;
+    max-height: 377px;
+  }
+}

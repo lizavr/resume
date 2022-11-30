@@ -60,6 +60,11 @@ a:hover {
   position: relative;
 }
 
+@media (max-width: 600px) {
+  .title {
+    font-size: 40px;
+  }
+}
 .header {
   background-color: var(--general-white-color);
 }
@@ -69,6 +74,16 @@ a:hover {
   border-bottom: 1px solid var(--secondary-color);
 }
 
+@media (max-width: 900px) {
+  .header__link {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}
 .about {
   font-weight: 500;
   font-size: 56px;
@@ -116,6 +131,18 @@ a:hover {
   font-weight: 400;
 }
 
+@media (max-width: 1000px) {
+  .about__infs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__photo {
+    height: 465px;
+    width: 385px;
+    order: -1;
+    margin-bottom: 24px;
+  }
+}
 .fa.fa-star {
   margin: 3px;
   color: var(--secondary-text-color);
@@ -280,6 +307,15 @@ a:hover {
   .timeline__right {
     left: 0;
   }
+  .timeline__left:after {
+    left: 0;
+  }
+  .timeline__content__date-left {
+    order: 0;
+  }
+  .timeline__content-left {
+    text-align: left;
+  }
 }
 .projects {
   background-color: #fafafa;
@@ -353,13 +389,33 @@ a:hover {
   background-color: var(--buttons-color);
 }
 
+@media (max-width: 1000px) {
+  .swiper-slide__content {
+    flex-direction: column;
+  }
+  .swiper-slide__content__img {
+    margin: 0 auto;
+    max-width: 603px;
+    max-height: 377px;
+  }
+}
 .languages {
   background-color: #fafafa;
+}
+.languages__items {
+  gap: var(--gap);
+  flex-wrap: wrap;
 }
 .languages__item {
   text-align: center;
 }
 .languages__item__img {
+  height: 182px;
+  width: 182px;
+  margin-bottom: calc(var(--gap) * 3);
+}
+.languages__item__img-by {
+  border-radius: 50%;
   height: 182px;
   width: 182px;
   margin-bottom: calc(var(--gap) * 3);
@@ -387,4 +443,18 @@ a:hover {
   padding-top: calc(var(--gap) * 12);
   gap: calc(var(--gap) * 2);
   margin-bottom: calc(var(--gap) * 13);
+}
+
+@media (max-width: 1000px) {
+  .contact__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__content__photo img {
+    height: 300px;
+    width: 300px;
+  }
+  .contact__content__inf {
+    padding-left: 0;
+  }
 }

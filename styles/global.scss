@@ -42,3 +42,8 @@ a {
   visibility: hidden;
   position: relative;
 }
+@media (max-width: 600px) {
+  .title {
+    font-size: 40px;
+  }
+}

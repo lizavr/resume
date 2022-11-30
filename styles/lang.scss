@@ -1,11 +1,21 @@
 .languages {
   background-color: #fafafa;
+  &__items {
+    gap: var(--gap);
+    flex-wrap: wrap;
+  }
   &__item {
     text-align: center;
     &__img {
       height: 182px;
       width: 182px;
       margin-bottom: calc(var(--gap) * 3);
+      &-by {
+        border-radius: 50%;
+        height: 182px;
+        width: 182px;
+        margin-bottom: calc(var(--gap) * 3);
+      }
     }
   }
   &__lang {

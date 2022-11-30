@@ -6,6 +6,7 @@
   --accent-blue: #10367c;
   --buttons-color: #3a4576;
   --gap: 8px;
+  --bgcolor: #fafafa;
 }
 body {
   font-weight: 400;
@@ -34,4 +35,10 @@ a {
   font-size: 56px;
   text-align: center;
   margin-bottom: 55px;
+}
+.anchor {
+  display: block;
+  top: -120px;
+  visibility: hidden;
+  position: relative;
 }

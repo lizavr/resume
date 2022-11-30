@@ -19,6 +19,7 @@ li {
   --accent-blue: #10367c;
   --buttons-color: #3a4576;
   --gap: 8px;
+  --bgcolor: #fafafa;
 }
 
 body {
@@ -50,6 +51,13 @@ a:hover {
   font-size: 56px;
   text-align: center;
   margin-bottom: 55px;
+}
+
+.anchor {
+  display: block;
+  top: -120px;
+  visibility: hidden;
+  position: relative;
 }
 
 .header__container {
@@ -134,6 +142,9 @@ a:hover {
   margin-bottom: 70px;
 }
 
+.skills {
+  background-color: var(--bgcolor);
+}
 .skills__arrow {
   margin: 0 auto;
   width: 24px;
@@ -144,6 +155,10 @@ a:hover {
 }
 .skills__hidden {
   display: none;
+}
+
+.experience {
+  background-color: var(--general-white-color);
 }
 
 .timeline {

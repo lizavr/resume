@@ -1,3 +1,4 @@
+@import "variables";
 .projects {
   background-color: #fafafa;
 }
@@ -31,12 +32,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding-left: calc(var(--gap) * 7);
+  padding-left: calc($gap * 7);
 }
 .swiper-slide__content {
   &__img {
     width: 100%;
-    margin-bottom: calc(var(--gap) * 7);
+    margin-bottom: calc($gap * 7);
   }
 
   &__description {
@@ -46,12 +47,12 @@
 
     &__name {
       font-weight: 500;
-      margin-bottom: var(--gap);
+      margin-bottom: $gap;
     }
 
     &__desc {
-      color: var(--secondary-text-color);
-      margin-bottom: calc(var(--gap) * 9);
+      color: $secondary-text-color;
+      margin-bottom: calc($gap * 9);
     }
   }
 }
@@ -63,12 +64,12 @@
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
   bottom: 0;
-  margin-right: calc(var(--gap) * 2);
+  margin-right: calc($gap * 2);
 }
 .swiper-pagination-bullet {
   width: 17px;
   height: 17px;
-  background-color: var(--buttons-color);
+  background-color: $buttons-color;
 }
 @media (max-width: 1000px) {
   .swiper-slide__content {

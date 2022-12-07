@@ -1,5 +1,6 @@
+@import "variables";
 .experience {
-  background-color: var(--general-white-color);
+  background-color: $general-white-color;
 }
 .timeline {
   position: relative;
@@ -13,7 +14,7 @@
   content: "";
   position: absolute;
   width: 1px;
-  background-color: var(--main-color);
+  background-color: $main-color;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -40,7 +41,7 @@
   z-index: 1;
 }
 .timeline__container-now::after {
-  background-color: var(--main-color);
+  background-color: $main-color;
 }
 
 /* Place the container to the left */
@@ -73,12 +74,12 @@
 .timeline__content {
   &__date,
   &__do {
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
   }
   &__date {
     width: 100%;
     &-now {
-      color: var(--buttons-color);
+      color: $buttons-color;
     }
     &-left {
       order: 1;
@@ -89,10 +90,10 @@
   }
   &__place {
     font-weight: 500;
-    margin-bottom: calc(var(--gap) / 2);
+    margin-bottom: calc($gap / 2);
   }
   &__content__prof {
-    margin-bottom: var(--gap);
+    margin-bottom: $gap;
   }
 }
 

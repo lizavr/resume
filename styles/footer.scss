@@ -1,3 +1,4 @@
+@import "variables";
 .contact__content {
   &__photo img {
     object-fit: cover;
@@ -10,12 +11,12 @@
     a {
       text-decoration: underline;
       display: block;
-      margin-bottom: var(--gap);
+      margin-bottom: $gap;
     }
     &__links {
-      padding-top: calc(var(--gap) * 12);
-      gap: calc(var(--gap) * 2);
-      margin-bottom: calc(var(--gap) * 13);
+      padding-top: calc($gap * 12);
+      gap: calc($gap * 2);
+      margin-bottom: calc($gap * 13);
     }
   }
 }

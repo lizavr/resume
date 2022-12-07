@@ -1,7 +1,8 @@
+@import "variables";
 .languages {
   background-color: #fafafa;
   &__items {
-    gap: var(--gap);
+    gap: $gap;
     flex-wrap: wrap;
   }
   &__item {
@@ -9,17 +10,17 @@
     &__img {
       height: 182px;
       width: 182px;
-      margin-bottom: calc(var(--gap) * 3);
+      margin-bottom: calc($gap * 3);
       &-by {
         border-radius: 50%;
         height: 182px;
         width: 182px;
-        margin-bottom: calc(var(--gap) * 3);
+        margin-bottom: calc($gap * 3);
       }
     }
   }
   &__lang {
     font-weight: 500;
-    margin-bottom: var(--gap);
+    margin-bottom: $gap;
   }
 }

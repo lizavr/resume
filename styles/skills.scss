@@ -1,12 +1,13 @@
+@import "variables";
 .fa.fa-star {
   margin: 3px;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .fa.fa-star.checked {
-  color: var(--main-color);
+  color: $main-color;
 }
 .skills__items {
-  gap: calc(var(--gap) * 5);
+  gap: calc($gap * 5);
   flex-wrap: wrap;
 }
 .skill__item {
@@ -25,13 +26,13 @@
   }
 }
 .skills {
-  background-color: var(--bgcolor);
+  background-color: $bgcolor;
   &__arrow {
     margin: 0 auto;
     width: 24px;
     height: 24px;
-    border-top: 5px solid var(--main-color);
-    border-right: 5px solid var(--main-color);
+    border-top: 5px solid $main-color;
+    border-right: 5px solid $main-color;
     transform: rotate(135deg);
   }
   &__hidden {
